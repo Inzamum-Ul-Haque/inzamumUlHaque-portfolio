@@ -1,0 +1,74 @@
+.header {
+  height: 75vh;
+  font-family: "Raleway", sans-serif;
+  margin-top: 30px;
+}
+
+.home-text {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-text p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.home-text h2 {
+  font-family: "Lobster", cursive;
+  font-size: 50px;
+}
+
+.home-text h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 25px;
+  border-radius: 30px;
+  margin-right: 5px;
+  font-weight: 500;
+}
+
+.buttons a:after {
+  border-radius: 30px;
+}
+
+.home-img .img-box {
+  max-width: 450px;
+  display: block;
+  margin: auto;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.home-img .img-box img {
+  width: 100%;
+  border-radius: 20px;
+  border: 10px solid transparent;
+}
+
+@media screen and (max-width: 992px) {
+  .home-text {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home-text {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  .home-text {
+    text-align: center;
+  }
+}

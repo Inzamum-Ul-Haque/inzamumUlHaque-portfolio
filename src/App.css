@@ -1,6 +1,55 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 @import url(https://fonts.googleapis.com/css?family=Lobster:regular);
 
+/* global styles start */
+
+:root {
+  --skin-color: #80fd0bff;
+  --bg-black-900: #000000;
+  --bg-black-100: #dddddd;
+  --bg-black-50: #eff0f4;
+  --text-black-900: #000000;
+  --text-black-700: #555555;
+  --text-black-600: #666666;
+  --text-black-300: #bbbbbb;
+  --shadow-1: 10px 10px 19px #d0d0d0, -10px -10px 19px #f8f8f8;
+  --outer-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
+  --outer-shadow-0: 0 0 0 #d0d0d0, 0 0 0 #f8f8f8;
+  --inner-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
+}
+
+.outer-shadow {
+  box-shadow: var(--outer-shadow);
+}
+
+.inner-shadow {
+  box-shadow: var(--inner-shadow);
+}
+
+.hover-in-shadow {
+  position: relative;
+  z-index: 1;
+}
+
+.hover-in-shadow:hover {
+  box-shadow: var(--outer-shadow-0);
+}
+
+.hover-in-shadow:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.hover-in-shadow:hover:after {
+  box-shadow: var(--inner-shadow);
+}
+/* global styles end */
+
 .App {
   text-align: center;
 }
