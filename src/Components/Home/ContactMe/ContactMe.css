@@ -1,0 +1,70 @@
+.contact {
+  font-family: "Raleway", sans-serif;
+  margin-top: 20px;
+}
+
+.address-cards {
+  justify-content: center;
+  gap: 20px;
+  place-items: center;
+}
+
+.address-cards .card {
+  width: 400px;
+  border: 0;
+  box-shadow: var(--outer-shadow);
+  transition: all 0.3s ease-in-out;
+}
+
+.address-cards .card:hover {
+  box-shadow: var(--inner-shadow);
+}
+
+.inputs {
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+}
+
+.inputs input {
+  font-size: 20px;
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 10px;
+  box-shadow: var(--outer-shadow);
+  border: 0;
+  outline: none;
+  border-radius: 15px;
+  transition: all 0.5s ease-in-out;
+}
+
+.inputs input:focus {
+  box-shadow: var(--inner-shadow);
+}
+
+.message textarea {
+  width: 100%;
+  padding: 10px;
+  box-shadow: var(--outer-shadow);
+  border: 0;
+  outline: none;
+  border-radius: 15px;
+  transition: all 0.5s ease-in-out;
+  height: 200px;
+  resize: none;
+}
+
+.message textarea:focus {
+  box-shadow: var(--inner-shadow);
+}
+
+.send-btn {
+  margin-top: 25px;
+  border: 0;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+
+.send-btn:after {
+  border-radius: 15px;
+}

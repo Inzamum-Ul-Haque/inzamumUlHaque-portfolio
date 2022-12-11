@@ -1,4 +1,5 @@
 import React from "react";
+import ContactMe from "../ContactMe/ContactMe";
 import Education from "../Education/Education";
 import Header from "../Header/Header";
 import NavigationBar from "../NavigationBar/NavigationBar";
@@ -13,6 +14,7 @@ const Home = () => {
       <Projects />
       <Skills />
       <Education />
+      <ContactMe />
     </div>
   );
 };

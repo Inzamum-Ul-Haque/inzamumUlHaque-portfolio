@@ -6,9 +6,9 @@ import { BiLinkExternal } from "react-icons/bi";
 
 const Projects = () => {
   return (
-    <div className="mt-5 projects container">
+    <div className="projects container">
       <h1>My Projects</h1>
-      <div className="cards-container row row-cols-3">
+      <div className="cards-container row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1">
         <div className="cards col">
           <Card>
             <Card.Img variant="top" src={swapper} />
@@ -16,16 +16,6 @@ const Projects = () => {
               <button>
                 <a href="/">
                   Live Preview <BiLinkExternal />
-                </a>
-              </button>
-              <button>
-                <a href="/">
-                  Github Client <BiLinkExternal />
-                </a>
-              </button>
-              <button>
-                <a href="/">
-                  Github Server <BiLinkExternal />
                 </a>
               </button>
             </div>
@@ -41,16 +31,6 @@ const Projects = () => {
                   Live Preview <BiLinkExternal />
                 </a>
               </button>
-              <button>
-                <a href="/">
-                  Github Client <BiLinkExternal />
-                </a>
-              </button>
-              <button>
-                <a href="/">
-                  Github Server <BiLinkExternal />
-                </a>
-              </button>
             </div>
           </Card>
           <h3>Photography</h3>
@@ -62,16 +42,6 @@ const Projects = () => {
               <button>
                 <a href="/">
                   Live Preview <BiLinkExternal />
-                </a>
-              </button>
-              <button>
-                <a href="/">
-                  Github Client <BiLinkExternal />
-                </a>
-              </button>
-              <button>
-                <a href="/">
-                  Github Server <BiLinkExternal />
                 </a>
               </button>
             </div>

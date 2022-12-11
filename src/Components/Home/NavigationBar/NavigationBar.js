@@ -4,7 +4,7 @@ import "./NavigationBar.css";
 
 const NavigationBar = () => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar fixed="top" bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="#home">Inzamum</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -12,9 +12,9 @@ const NavigationBar = () => {
           <Nav>
             <Nav.Link href="#home">Education</Nav.Link>
             <Nav.Link href="#skills">Skills</Nav.Link>
-            <Nav.Link href="#link">Projects</Nav.Link>
-            <Nav.Link href="#link">Certifications</Nav.Link>
-            <Nav.Link href="#link">Contact</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
+            <Nav.Link href="#certifications">Certifications</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -1,5 +1,6 @@
 .projects {
   font-family: "Raleway", sans-serif;
+  margin-top: 20px;
 }
 
 .cards {
@@ -37,8 +38,8 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  left: 33%;
-  bottom: 33%;
+  left: 0;
+  bottom: 0;
   width: max-content;
   text-align: center;
   transform: translateY(30px);
