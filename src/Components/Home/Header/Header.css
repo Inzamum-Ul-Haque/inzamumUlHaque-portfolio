@@ -1,6 +1,7 @@
 .header {
   font-family: "Raleway", sans-serif;
   margin-top: 120px;
+  color: white;
   /* position: relative; */
 }
 
@@ -141,9 +142,15 @@
   .home-text {
     text-align: center;
   }
+  .hero-shape .hero-shape-4 {
+    display: none;
+  }
 }
 @media screen and (max-width: 576px) {
   .home-text {
     text-align: center;
+  }
+  .hero-shape .hero-shape-4 {
+    display: none;
   }
 }

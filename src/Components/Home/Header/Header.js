@@ -25,7 +25,9 @@ const Header = () => {
       <div className="row gy-5 header-container">
         <div className="col-lg-6 col-md-12 col-sm-12 home-text">
           <p>Hello</p>
-          <h2>I'm Inzamum-Ul-Haque</h2>
+          <h2>
+            I'm <span style={{ color: "#FFB352" }}>Inzamum-Ul-Haque</span>
+          </h2>
           <h3>I'm a Web Developer</h3>
           <div className="buttons">
             <a

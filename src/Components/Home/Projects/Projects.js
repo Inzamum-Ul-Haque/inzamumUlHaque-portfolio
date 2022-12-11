@@ -6,7 +6,7 @@ import { BiLinkExternal } from "react-icons/bi";
 
 const Projects = () => {
   return (
-    <div className="projects container">
+    <div className="projects container" id="projects">
       <h1>My Projects</h1>
       <div className="cards-container row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1">
         <div className="cards col">

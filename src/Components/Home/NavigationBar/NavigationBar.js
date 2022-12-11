@@ -4,7 +4,7 @@ import "./NavigationBar.css";
 
 const NavigationBar = () => {
   return (
-    <Navbar fixed="top" bg="light" expand="lg">
+    <Navbar fixed="top" expand="lg">
       <Container>
         <Navbar.Brand href="#home">Inzamum</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

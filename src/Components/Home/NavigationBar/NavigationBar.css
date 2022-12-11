@@ -1,11 +1,16 @@
 nav {
   font-family: "Raleway", sans-serif;
+  background: #353535;
+  color: white;
 }
 
 .navbar-brand {
   font-family: "Lobster", sans-serif;
+  color: white !important;
+  font-size: 25px !important;
 }
 
 .navbar-nav a {
   font-size: 22px;
+  color: white;
 }
