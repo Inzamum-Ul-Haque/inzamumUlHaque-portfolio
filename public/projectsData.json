@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Swapper",
+        "projectFullName": "Swapper: Buy Second-hand Laptops from Sellers",
+        "mainImg": "https://i.ibb.co/WgYCBGd/image.png",
+        "screenshots": ["https://i.ibb.co/WgYCBGd/image.png", "https://i.ibb.co/WgYCBGd/image.png", "https://i.ibb.co/WgYCBGd/image.png"],
+        "desc": "Swapper is a laptop reselling website for used laptops. A normal user or buyer can buy any of the used laptops posted by the seller. There is also an admin system where admins can verify buyers or sellers and delete some reported items.",
+        "features": [
+          "Login registration system using Google and secure JWT API for buyers, sellers, and admins",
+          "Product posting, advertisement system by sellers where on the home page the seller’s products will be advertised",
+          "Buyers can view and book a product, and buyers can also save their desired products into their wishlist",
+          "Admin can verify buyers and sellers, delete added or reported products by the sellers",
+          "Users can pay online using their card or by meeting sellers and paying them directly",
+          "Routes are protected by JWT tokens, unauthorized intervention of data can’t be possible",
+          "Card payment system is implemented by Stripe"
+        ],
+        "technologies":
+          "React, React-Router, Firebase Auth, JWT, Node, Express, Rest API, Stripe",
+        "liveLink": "https://products-resale-a767c.web.app/",
+        "clientLink":
+          "client-side link: https://github.com/Inzamum-Ul-Haque/Swapper",
+        "serverLink": "https://github.com/Inzamum-Ul-Haque/swapper-server"
+      }
+]
