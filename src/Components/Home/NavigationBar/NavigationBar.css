@@ -13,4 +13,13 @@ nav {
 .navbar-nav a {
   font-size: 22px;
   color: white;
+  font-weight: 600;
+}
+
+.navbar-nav a:hover {
+  color: #ffb352;
+}
+
+.navbar-nav .nav-link.active {
+  color: #ffb352 !important;
 }

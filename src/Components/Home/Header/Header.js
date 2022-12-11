@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import profilePhoto from "../../../Assets/images/me.png";
+import { AiOutlineDownload, AiOutlineContacts } from "react-icons/ai";
 
 const Header = () => {
   return (
@@ -35,14 +36,14 @@ const Header = () => {
               download
               className="btn-download outer-shadow hover-in-shadow"
             >
-              Download Resume
+              Download Resume <AiOutlineDownload />
             </a>
             <a
               href="Inzamum Ul Haque - Jr. Web Developer.pdf"
               download
               className="btn-download outer-shadow hover-in-shadow"
             >
-              Contact Me
+              Contact Me <AiOutlineContacts />
             </a>
           </div>
         </div>

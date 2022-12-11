@@ -1,4 +1,5 @@
 import React from "react";
+import Blog from "../Blog/Blog";
 import ContactMe from "../ContactMe/ContactMe";
 import Education from "../Education/Education";
 import Header from "../Header/Header";
@@ -14,6 +15,7 @@ const Home = () => {
       <Projects />
       <Skills />
       <Education />
+      <Blog />
       <ContactMe />
     </div>
   );

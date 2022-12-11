@@ -3,6 +3,10 @@
   margin-top: 20px;
 }
 
+.contact h1 {
+  color: white;
+}
+
 .address-cards {
   justify-content: center;
   gap: 20px;
