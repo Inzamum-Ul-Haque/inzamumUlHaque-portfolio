@@ -1,0 +1,11 @@
+.modal-content {
+  font-family: "Raleway", sans-serif;
+}
+
+.features {
+  padding-left: 0.5rem;
+}
+
+.features li {
+  list-style: none;
+}

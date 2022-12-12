@@ -60,7 +60,7 @@ const ContactMe = () => {
         </div>
         <button type="submit" className="send-btn outer-shadow hover-in-shadow">
           Send Message
-          <MdSend />
+          <MdSend className="ms-2" />
         </button>
       </form>
     </div>

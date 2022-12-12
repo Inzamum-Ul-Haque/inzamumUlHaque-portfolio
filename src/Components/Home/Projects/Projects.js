@@ -1,17 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Projects.css";
 import swapper from "../../../Assets/images/swapper.png";
 import photography from "../../../Assets/images/photography.png";
 import codiepie from "../../../Assets/images/codiepie.png";
 import { BiLinkExternal, BiLinkAlt } from "react-icons/bi";
-import { Link } from "react-router-dom";
 import { Card } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
 import { BsServer } from "react-icons/bs";
+import ViewProjectDetails from "./ViewProjectDetails";
 
 const Projects = () => {
+  const [show, setShow] = useState(false);
+  const [projectData, setProjectData] = useState(null);
   const projectsData = [
     {
+      id: 1,
       name: "Swapper",
       projectFullName: "Swapper: Buy Second-hand Laptops from Sellers",
       mainImg: swapper,
@@ -34,6 +37,7 @@ const Projects = () => {
       serverLink: "https://github.com/Inzamum-Ul-Haque/swapper-server",
     },
     {
+      id: 2,
       name: "Photography",
       projectFullName: "Swapper: Buy Second-hand Laptops from Sellers",
       mainImg: photography,
@@ -56,6 +60,7 @@ const Projects = () => {
       serverLink: "https://github.com/Inzamum-Ul-Haque/swapper-server",
     },
     {
+      id: 3,
       name: "CodiePie",
       projectFullName: "Swapper: Buy Second-hand Laptops from Sellers",
       mainImg: codiepie,
@@ -79,6 +84,11 @@ const Projects = () => {
     },
   ];
 
+  const handleShow = (data) => {
+    setShow(true);
+    setProjectData(data);
+  };
+
   return (
     <div className="projects container" id="projects">
       <h1 data-text="My Projects">My Projects</h1>
@@ -94,7 +104,10 @@ const Projects = () => {
                   : projectData.desc}
               </Card.Text>
               <div className="d-flex justify-content-between align-items-center mb-3">
-                <button className="view-details">
+                <button
+                  onClick={() => handleShow(projectData)}
+                  className="view-details"
+                >
                   View Details <BiLinkExternal />
                 </button>
                 <div className="d-flex justify-content-between align-items-center links">
@@ -125,6 +138,11 @@ const Projects = () => {
           </Card>
         ))}
       </div>
+      <ViewProjectDetails
+        projectData={projectData}
+        show={show}
+        setShow={setShow}
+      />
     </div>
   );
 };

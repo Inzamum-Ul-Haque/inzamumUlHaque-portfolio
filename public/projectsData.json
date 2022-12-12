@@ -3,7 +3,7 @@
         "name": "Swapper",
         "projectFullName": "Swapper: Buy Second-hand Laptops from Sellers",
         "mainImg": "https://i.ibb.co/WgYCBGd/image.png",
-        "screenshots": ["https://i.ibb.co/WgYCBGd/image.png", "https://i.ibb.co/WgYCBGd/image.png", "https://i.ibb.co/WgYCBGd/image.png"],
+        "screenshots": ["", "", ""],
         "desc": "Swapper is a laptop reselling website for used laptops. A normal user or buyer can buy any of the used laptops posted by the seller. There is also an admin system where admins can verify buyers or sellers and delete some reported items.",
         "features": [
           "Login registration system using Google and secure JWT API for buyers, sellers, and admins",
