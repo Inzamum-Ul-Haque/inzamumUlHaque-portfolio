@@ -9,23 +9,26 @@ const ViewProjectDetails = ({ projectData, show, setShow }) => {
   return (
     <Modal show={show} onHide={handleClose} backdrop="static" keyboard={false}>
       <Modal.Header closeButton>
-        <Modal.Title>{projectData.projectFullName}</Modal.Title>
+        <Modal.Title>{projectData?.projectFullName}</Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <div>
-          <img className="img-fluid" src={projectData.mainImg} alt="mainImg" />
+          <img className="img-fluid" src={projectData?.mainImg} alt="mainImg" />
         </div>
-        <p className="mt-3">{projectData.desc}</p>
+        <p className="mt-3">{projectData?.desc}</p>
         <p className="fw-semibold">Features include:</p>
         <ul className="features">
-          {projectData.features.map((feature, idx) => (
+          {projectData?.features.map((feature, idx) => (
             <li key={idx}>
               <MdSend className="me-2" /> {feature}
             </li>
           ))}
         </ul>
         <p className="fw-semibold">Tech used:</p>
-        <p>{projectData.technologies}</p>
+        <p>
+          {/* <i className="devicon-html5-plain-wordmark colored"></i> */}
+          {projectData?.technologies}
+        </p>
       </Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={handleClose}>
