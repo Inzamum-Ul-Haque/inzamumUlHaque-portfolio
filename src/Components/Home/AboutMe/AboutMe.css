@@ -1,0 +1,39 @@
+.about-me-container {
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+.about-me-container h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about-me-inner-container {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+}
+
+.about-me-img-container {
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(45deg, transparent, #606060);
+  /* display: grid;
+  place-items: center; */
+}
+
+.about-me-img {
+  border-radius: 2rem;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: all 0.4s ease;
+}
+
+.about-me-img:hover {
+  transform: rotate(0deg);
+}
+
+.about-me-img img {
+  width: 100%;
+}

@@ -91,7 +91,7 @@ const Projects = () => {
 
   return (
     <div className="projects container" id="projects">
-      <h1 data-text="My Projects">My Projects</h1>
+      <h1>My Projects</h1>
       <div className="projects-container row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1 mt-4">
         {projectsData.map((projectData, idx) => (
           <Card className="h-100 d-flex" key={idx}>
@@ -100,8 +100,15 @@ const Projects = () => {
               <Card.Title className="mb-2">{projectData.name}</Card.Title>
               <Card.Text>
                 {projectData.desc.length > 200
-                  ? projectData.desc.slice(0, 150) + "...See more"
+                  ? projectData.desc.slice(0, 150) + " ...."
                   : projectData.desc}
+                {projectData.desc.length > 200 ? (
+                  <a className="see-more" href="/">
+                    See more
+                  </a>
+                ) : (
+                  ""
+                )}
               </Card.Text>
               <div className="d-flex justify-content-between align-items-center mb-3">
                 <button
