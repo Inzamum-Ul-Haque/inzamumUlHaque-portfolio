@@ -39,7 +39,7 @@ const Projects = () => {
     {
       id: 2,
       name: "Photography",
-      projectFullName: "Swapper: Buy Second-hand Laptops from Sellers",
+      projectFullName: "Photography: Hire for Photography Services",
       mainImg: photography,
       screenshots: [swapper, swapper, swapper],
       desc: "Photography is a service providing website for providing photography services. People can get any kind of photography services offered by the photographers by knocking on them.",
@@ -62,7 +62,8 @@ const Projects = () => {
     {
       id: 3,
       name: "CodiePie",
-      projectFullName: "Swapper: Buy Second-hand Laptops from Sellers",
+      projectFullName:
+        "CodiePie An educational website for buying web development courses",
       mainImg: codiepie,
       screenshots: [swapper, swapper, swapper],
       desc: "CodiePie is an educational platform for every enthusiastic person who wants to learn web development. It is a website where they can buy courses regarding web development. Here they will find most of the courses related to web development.",
