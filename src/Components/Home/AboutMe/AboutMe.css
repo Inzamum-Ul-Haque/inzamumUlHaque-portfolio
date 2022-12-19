@@ -65,18 +65,6 @@
   font-size: 1.1rem;
 }
 
-@media screen and (max-width: 992px) {
-  .about-me-inner-container {
-    grid-template-columns: 1fr;
-    gap: 0;
-  }
-
-  .about-me-img-container {
-    width: 50%;
-    margin: 2rem auto 4rem;
-  }
-}
-
 .hero-container-2 .hero-shape-2 {
   position: absolute;
   right: -8%;
@@ -101,6 +89,17 @@
   animation: hero-circle-1 5s linear 0s infinite alternate;
 }
 
+@media screen and (max-width: 992px) {
+  .about-me-inner-container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .about-me-img-container {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+}
 @media screen and (max-width: 768px) {
   .about-me-img-container {
     width: 65%;
@@ -118,5 +117,14 @@
 
   .about-me-content p {
     margin: 1.5rem 0;
+  }
+
+  .hero-container-2 .hero-shape-6 {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .hero-container-2 .hero-shape-6 {
+    display: none;
   }
 }

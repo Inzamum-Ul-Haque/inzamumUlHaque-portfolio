@@ -1,6 +1,38 @@
 .projects {
   font-family: "Raleway", sans-serif;
   margin-top: 100px;
+  position: relative;
+}
+
+.hero-container-3 .hero-shape-1 {
+  position: absolute;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: hero-circle-1;
+  right: -4%;
+  top: 10%;
+  z-index: -100;
+}
+
+.hero-container-3 .hero-shape-6 {
+  position: absolute;
+  z-index: -100;
+  bottom: -25px;
+  left: -30px;
+  animation: hero-dot-1 5s linear 0s infinite alternate;
+}
+
+.hero-container-3 .hero-shape-6-extra {
+  position: absolute;
+  z-index: -100;
+  bottom: -25px;
+  right: -30px;
+  animation: hero-dot-1 5s linear 0s infinite alternate;
 }
 
 .projects h1 {

@@ -11,6 +11,26 @@ nav {
   font-size: 25px !important;
 }
 
+.yellow-shape {
+  position: relative;
+  z-index: 10;
+}
+
+.yellow-shape img {
+  position: absolute;
+  bottom: -1px;
+  z-index: -1;
+  left: -1px;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: section-animation;
+}
+
 .navbar-nav a {
   font-size: 19px;
   color: white;
@@ -23,4 +43,24 @@ nav {
 
 .navbar-nav .nav-link.active {
   color: #ffb352 !important;
+}
+
+@keyframes section-animation {
+  0% {
+    width: 0;
+  }
+  15% {
+    width: 100%;
+  }
+  85% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+    width: 100%;
+  }
+  100% {
+    opacity: 0;
+    width: 0;
+  }
 }

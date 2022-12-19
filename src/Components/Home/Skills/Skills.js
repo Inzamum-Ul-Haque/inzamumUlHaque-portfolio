@@ -143,6 +143,15 @@ const Skills = () => {
             </div>
             <h3>JWT</h3>
           </div>
+          <div className="skill-title">
+            <div className="img">
+              <img
+                alt=""
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
+              />
+            </div>
+            <h3>NPM</h3>
+          </div>
         </div>
       </div>
       <div className="mt-2">

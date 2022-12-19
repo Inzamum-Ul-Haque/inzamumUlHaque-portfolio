@@ -6,7 +6,15 @@ const NavigationBar = () => {
   return (
     <Navbar fixed="top" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">Inzamum</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <div className="yellow-shape">
+            <span>Inzamum</span>
+            <img
+              src="https://react-educal.netlify.app/assets/img/shape/yellow-bg.png"
+              alt=""
+            />
+          </div>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav>

@@ -95,6 +95,23 @@ const Projects = () => {
       <div className="title-header">
         <h1>My Projects</h1>
       </div>
+      <div className="hero-container-3">
+        <img
+          className="hero-shape-1"
+          src="https://bdevs.net/wp/educal/wp-content/themes/educal/assets/img/shape/hero/hero-1-circle.png"
+          alt="hero-shape-1"
+        />
+        <img
+          className="hero-shape-6"
+          src="https://bdevs.net/wp/educal/wp-content/themes/educal/assets/img/shape/hero/hero-1-dot.png"
+          alt="hero-shape-6"
+        />
+        <img
+          className="hero-shape-6-extra"
+          src="https://bdevs.net/wp/educal/wp-content/themes/educal/assets/img/shape/hero/hero-1-dot.png"
+          alt="hero-shape-6"
+        />
+      </div>
       <div className="projects-container row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1 mt-4">
         {projectsData.map((projectData, idx) => (
           <Card className="h-100 d-flex" key={idx}>
