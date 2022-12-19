@@ -35,6 +35,7 @@ footer .menu li a {
 
 footer .menu li a:hover {
   transform: translateY(-10px);
+  color: #ffb352;
 }
 
 footer p {
