@@ -17,7 +17,9 @@ const ContactMe = () => {
 
   return (
     <div className="contact container" id="contact">
-      <h1>Contact Me</h1>
+      <div className="title-header">
+        <h1>Contact Me</h1>
+      </div>
       <div className="address-cards row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1 mt-4">
         <Card>
           <Card.Body>

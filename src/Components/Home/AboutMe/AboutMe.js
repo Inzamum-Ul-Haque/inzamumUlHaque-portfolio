@@ -8,8 +8,10 @@ import { VscFolderLibrary } from "react-icons/vsc";
 const AboutMe = () => {
   return (
     <div id="aboutme" className="about-me-container container">
-      <h1 className="mt-5 mb-4">About Me</h1>
-      <div className="hero-container-2">
+      <div className="title-header">
+        <h1 className="mt-5">About Me</h1>
+      </div>
+      <div className="hero-container-2 mt-5">
         <img
           className="hero-shape-2"
           src="https://bdevs.net/wp/educal/wp-content/themes/educal/assets/img/shape/hero/hero-1-circle-2.png"
