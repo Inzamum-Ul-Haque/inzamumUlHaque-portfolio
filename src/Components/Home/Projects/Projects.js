@@ -29,8 +29,7 @@ const Projects = () => {
         "Routes are protected by JWT tokens, unauthorized intervention of data can’t be possible",
         "Card payment system is implemented by Stripe",
       ],
-      technologies:
-        "React, React-Router, Firebase Auth, JWT, Node, Express, Rest API, Stripe",
+      technologies: `React, React-Router, Firebase Auth, JWT, Node, Express, Rest API, Stripe`,
       liveLink: "https://products-resale-a767c.web.app/",
       clientLink:
         "client-side link: https://github.com/Inzamum-Ul-Haque/Swapper",

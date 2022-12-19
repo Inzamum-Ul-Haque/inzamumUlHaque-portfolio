@@ -16,7 +16,7 @@ const ViewProjectDetails = ({ projectData, show, setShow }) => {
           <img className="img-fluid" src={projectData?.mainImg} alt="mainImg" />
         </div>
         <p className="mt-3">{projectData?.desc}</p>
-        <p className="fw-semibold">Features include:</p>
+        <p className="fw-semibold mb-2">Features include:</p>
         <ul className="features">
           {projectData?.features.map((feature, idx) => (
             <li key={idx}>
@@ -24,11 +24,8 @@ const ViewProjectDetails = ({ projectData, show, setShow }) => {
             </li>
           ))}
         </ul>
-        <p className="fw-semibold">Tech used:</p>
-        <p>
-          {/* <i className="devicon-html5-plain-wordmark colored"></i> */}
-          {projectData?.technologies}
-        </p>
+        <p className="fw-semibold mb-1">Tech used:</p>
+        <p>{projectData?.technologies}</p>
       </Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={handleClose}>
